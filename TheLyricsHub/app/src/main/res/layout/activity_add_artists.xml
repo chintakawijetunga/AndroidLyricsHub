@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chintakawijetunga.thelyricshub.AddArtists">
+
+    <RelativeLayout
+        android:layout_width="377dp"
+        android:layout_height="505dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/lblAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtAbout"
+            android:layout_alignBottom="@+id/txtAbout"
+            android:layout_alignStart="@+id/lblArtistName"
+            android:text="About"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+        <EditText
+            android:id="@+id/txtArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="19dp" />
+
+        <TextView
+            android:id="@+id/lblArtistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist Name"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="47dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignBaseline="@+id/txtArtists"
+            android:layout_alignBottom="@+id/txtArtists"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/txtAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/txtArtists"
+            android:layout_below="@+id/txtArtists"
+            android:layout_marginTop="42dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnAddArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/txtAbout"
+            android:layout_marginBottom="25dp"
+            android:text="Add Artist" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

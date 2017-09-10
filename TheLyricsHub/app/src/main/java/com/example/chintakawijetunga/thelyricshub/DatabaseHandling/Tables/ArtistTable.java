@@ -15,7 +15,7 @@ public class ArtistTable {
     public static class ArtistTableInstance implements BaseColumns {
         public static final String TABLE_NAME = "ArtistTable";
         public static final String COLUMN_NAME_NAME = "name";
-        public static final byte[] COLUMN_NAME_PHOTO = null;
+       // public static final byte[] COLUMN_NAME_PHOTO = "photo";
         public static final String COLUMN_NAME_ABOUT = "about";
     }
 }
