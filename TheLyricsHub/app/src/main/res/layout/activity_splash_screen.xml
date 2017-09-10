@@ -27,14 +27,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.032" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toStartOf="@+id/textView"
-            app:srcCompat="@drawable/pianobeginner"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
